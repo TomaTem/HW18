@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <img src="logo.png" alt="logo">
+            <h1>Создайте аккаунт Google</h1>
+            <p>Перейти в Gmail</p>
+                        
+            <input type="text" placeholder="Имя" id="name" required>
+            <input type="text" placeholder="Фамилия" id="surname" required>
+            <p id="nametext"></p>
+
+            <input type="text" placeholder="Имя пользователя" id="email" required onkeyup="checkemail()">
+            <p id="emailtext">Можно использовать буквы латинского алфавита, цифры и точки.</p>
+            <input type="password" placeholder="Пароль" id="psw" required onkeyup="checkpsw()">
+            
+            <input type="password" placeholder="Подтвердить" id="psw-repeat" required onkeyup="checkpswrep()">
+            <p id="pswtext">Пароль должен содержать не менее восьми знаков, включать буквы, цифры и специальные символы</p>
+            
+            <input type="checkbox" id="showpsw" value="Bike">
+            <label for="showpsw">Показать пароль</label><br>
+            <hr>
+            
+            <button type="submit" class="registerbtn" id="sub">Зарегистрироваться</button>
+        </div>
+        
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>

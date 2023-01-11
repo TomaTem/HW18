@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опросник</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+        <fieldset>
+            <legend>Основная информация</legend>
+            <label for="petname">Кличка питомца</label>
+            <input type="text" id="petname" tabindex="1" required><br>
+            
+            <label for="age">Кличка питомца</label>
+            <input type="number" id="age" placeholder="Возраст котика" min="0" max="25"><br>
+            
+            <label for="name">Имя владельца</label>
+            <input type="text" id="name" tabindex="2" required><br>
+            
+            <label for="contacts">Контакты владельца</label>
+            <input type="text" id="contacts" ><br>
+            
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" required>
+        </fieldset><br>
+        
+        <label for="breed">Порода Вашего питомца</label>
+        <select name="breed" id="breed">
+            <option value="1">Сибирская</option>
+            <option value="2">Мейн-кун</option>
+            <option value="3">Манчкин</option>
+            <option value="4">Британская</option>
+            <option value="5">Метис</option>
+            <option value="6">Беспородная</option>
+        </select><br>
+        <br>
+        
+        <label for="food">Чем питается Ваша кошка/котик</label><br>
+        <input type="checkbox" class="food" value="dry" id="food">Сухой корм<br>
+        <input type="checkbox" class="food" value="wet">Влажный корм<br>
+        <input type="checkbox" class="food" value="naturale">Натуральный корм<br>
+        <br>
+        
+        <label for="sex">Пол питомца</label><br>
+        <input type="radio" class="sex" value="male" id="sex">Самец<br>
+        <input type="radio" class="sex" value="female">Самка<br>
+        <br>
+        
+        <label for="comments">Ваш комментарий</label><br>
+        <textarea placeholder="Комментарий" rows="5" cols="30" id="comments"></textarea><br>
+        <br>
+        
+        <button type="submit">Сохранить</button>
+    </div>
+    </form>
+
+</body>
+</html>

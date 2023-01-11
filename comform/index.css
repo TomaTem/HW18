@@ -1,0 +1,63 @@
+body {box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 15px auto 10px;
+    padding: 16px;
+    justify-content: center;
+}
+
+.storage, .prev {
+    width: 100%;
+    border: none;
+}
+
+#author {
+    padding: 8px;
+    padding-left: 15px;
+    margin: 45px 0 0 0;
+    width: 98%;
+    border: solid 1px #b1b1b1c8;
+    border-radius: 10px;
+}
+
+#newcom {
+    padding: 15px;
+    margin: 10px 0 0 0;
+    width: 97%;
+    border: solid 1px #b1b1b1c8;
+    border-radius: 10px;
+}
+
+.com {
+    padding: 15px;
+    margin: 5px 0 0 0;
+    border: solid 1px #b1b1b1c8;
+    border-radius: 10px;
+    width: 97%;
+    height: fit-content;
+}
+
+.com:hover, #newcom:focus, #author:focus {
+    border: solid 2px #1374e9;
+    outline: none;
+}
+
+.registerbtn {
+    background-color: #1374e9;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: solid 3px #1374e9;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.8;
+}
+.registerbtn:hover {
+    opacity:1;
+}

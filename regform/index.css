@@ -1,0 +1,62 @@
+body {box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.container {
+    width: 60%;
+    margin: 15px auto 10px;
+    padding: 16px;
+}
+
+img {
+    width: 10%;
+}
+
+p {
+    padding: 0px;
+    margin: 1px 0 22px 0;
+}
+
+input[type=text], input[type=password] {
+    padding: 15px;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    border: solid 1px #b1b1b1c8;
+    border-radius: 10px;
+}
+
+#name, #surname, #psw, #psw-repeat {
+    width: 45%;
+}
+#email {
+    width: 95%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: solid 3px #1374e9;
+    outline: none;
+}
+
+.errortext {
+    color: #da2c20;
+    }
+
+.registerbtn {
+    background-color: #1374e9;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
